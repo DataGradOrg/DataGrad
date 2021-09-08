@@ -1,0 +1,87 @@
+.contain {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  width: 100%;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.main {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30rem;
+  background-color: rgb(6, 15, 63, 0.8);
+  margin: 2.5rem;
+  padding: 0.5rem;
+  display: inline-block;
+  min-height: 380px;
+}
+.image {
+  text-align: center;
+  padding: 10px;
+}
+.profile-img {
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+}
+.name {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.quote {
+  text-align: justify;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.social {
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+.social a {
+  padding: 0rem 1rem;
+}
+
+@media only screen and (max-width: 660px) {
+  .card {
+    width: 450px;
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .card {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .card {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .card {
+    width: 340px;
+  }
+}

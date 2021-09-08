@@ -1,0 +1,103 @@
+.contain-contact {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-contact {
+  width: 450px;
+  background-color: rgba(148, 143, 171, 0.3);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-left: calc(50% - 225px);
+}
+
+.input-contact {
+  width: 90%;
+  margin: 0.8rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid gray;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.8;
+}
+
+.heading {
+  text-align: center;
+  overflow-y: hidden;
+  font-size: 2rem;
+  overflow-y: hidden;
+}
+.heading,
+.heading p,
+.heading h1 {
+  overflow-y: hidden;
+}
+.heading p {
+  font-size: 1.5rem;
+  overflow-y: hidden;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid gray;
+  padding: 0.5rem;
+  margin: 0.8rem;
+}
+#submit {
+  background-color: transparent;
+  border: 1.5px solid red;
+  transition: 0.5s;
+}
+#submit:hover {
+  background-color: red;
+  color: white;
+}
+
+.name {
+  padding: 1.5rem;
+}
+
+@media only screen and (max-width: 520px) {
+  .main-contact {
+    width: 360px;
+    margin-left: calc(50% - 180px);
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .main-contact {
+    width: 340px;
+    margin-left: calc(50% - 170px);
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .main {
+    justify-content: center;
+    margin-top: 70px;
+  }
+}

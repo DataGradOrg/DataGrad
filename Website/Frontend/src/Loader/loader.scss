@@ -1,0 +1,32 @@
+.fp-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .msg-container{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    span{
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .fp-loader{
+        top: 30%;
+        left: 48%;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    }
+
+}

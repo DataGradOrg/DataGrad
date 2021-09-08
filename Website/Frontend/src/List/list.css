@@ -1,0 +1,259 @@
+/* Import Pretty Checkboxes*/
+@import "https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css";
+/* Import Varela Round from Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+/*Variables defined*/
+:root {
+  --main-color: coral;
+  --text-color: #444;
+  --formcolor: white;
+  --button-color: hsl(356, 90%, 64%);
+}
+
+
+.contain-list {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.main-list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+.list-title {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.list-diff {
+  text-align: right;
+  color: white;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+.list-org {
+  text-align: center;
+  color: white;
+  padding: 0.8rem 0.2rem;
+}
+
+.org-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.list-about {
+  text-align: justify;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.list-rating {
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 4.5rem;
+  left: 1rem;
+  margin-top: 1rem;
+}
+.flip {
+  display: inline-block;
+}
+.back {
+  background-color: rgb(6, 15, 63, 0.8);
+  width: 30rem;
+  padding: 0.5rem;
+  margin: 2.5rem;
+  display: inline-block;
+  color: white;
+  overflow-y: hidden;
+  height: 85%;
+  overflow-y: hidden;
+  
+}
+.card {
+  width: 35rem;
+  background-color: rgb(6, 15, 63, 0.8);
+  margin: 2.5rem;
+  padding: 0.5rem;
+  display: inline-block;
+  overflow-y: hidden;
+  border-radius: 5px;
+}
+
+.list-heading {
+  text-align: justify;
+  padding: 1rem;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: 'Varela', sans-serif;
+}
+
+.list-text{
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2rem 3rem;
+  margin-top: 0.5rem;
+}
+.list-subtext{
+  text-align: justify;
+  font-size: 1.3rem;
+  padding: 1rem 5rem;
+  margin-top: 0.5rem;
+
+}
+
+#front-toggle {
+  text-align: center;
+  background-color: rgb(64, 224, 208, 0.6);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  bottom: 1rem;
+  left: calc(50% - 5rem);
+  width: 10rem;
+}
+#back-toggle {
+  text-align: center;
+  background-color: rgb(64, 224, 208, 0.6);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  bottom: 5rem;
+  left: calc(50% - 5rem);
+  width: 10rem;
+}
+
+ul {
+  text-align: center;
+}
+.c-list {
+  font-size: 1.1rem;
+  padding: 15px 0px;
+}
+.back-heading {
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1.3rem 1rem;
+}
+a{
+  color: white;
+}
+#link:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+@media only screen and (max-width: 1220px) {
+  .list-text {
+    margin-top: 60px;
+  }
+  .back button {
+    overflow-y: hidden;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .back {
+    width: 30rem;
+    overflow: hidden;
+  }
+.list-text{
+font-size: 1.6rem;
+}
+.list-subtext{
+  font-size: 1.1rem;
+}
+}
+@media only screen and (max-width: 520px) {
+  .card {
+    width: 30rem;
+  }
+.flippy-card, .flippy-back{
+    overflow-y: hidden;
+  }
+  
+
+  .back {
+    width: 25rem;
+    margin-left: 0px;
+  }
+  .list-heading {
+    font-size: 1.5rem;
+  }
+  .list-rating {
+    position: static;
+    display: block;
+  }
+  #front-toggle {
+    position: static;
+    margin: 1.2rem;
+    margin-left: calc(50% - 10rem);
+  }
+  #back-toggle{
+    margin: 1.5rem 0rem;
+  }
+.list-text{
+font-size: 1.5rem;
+}
+.list-subtext{
+  font-size: 0.9rem;
+  padding: 2rem;
+}
+
+}
+@media only screen and (max-width: 420px) {
+  .list-about {
+    font-size: 0.9rem;
+  }
+  .card {
+    width: 350px;
+  }
+  .back {
+    width: 20rem;
+  }
+  .list-heading {
+    font-size: 1.2rem;
+  }
+}
+
+
+.list-heading{
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+visibility: hidden;
+
+}
+.c-list{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

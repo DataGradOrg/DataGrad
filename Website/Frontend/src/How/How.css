@@ -1,0 +1,60 @@
+.contain-how{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+}
+
+.main-how {
+    width: 80%;
+    background-color: rgba(148, 143, 171, 0.3);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-left: 10%;
+    min-height: 50vh;
+  }
+
+
+.how-list{
+    color: white;
+    padding: 2rem;
+    font-size: 1.3rem;
+} 
+.how-list li{
+    padding: 1rem 0rem;
+    text-align: justify;
+} 
+@media only screen and (max-width: 1330px) {
+.main-how{
+    margin-top: 70px;
+}
+}
+@media only screen and (max-width: 650px) {
+    .how-list{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 520px) {
+
+.how-list li{
+padding: 0.6rem;
+}
+.main-how{
+    width: 90%;
+    margin-left: 5%;
+}
+.how-list{
+    padding: 1rem;
+}
+}
+@media only screen and (max-width: 420px) {
+.how-list{
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+
+}

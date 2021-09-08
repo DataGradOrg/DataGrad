@@ -1,0 +1,86 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    
+  
+    a{
+      color: white;
+      font-size: 20px;
+  
+    }
+    a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: red;
+      transition: width .3s;
+  }
+  
+    a:hover::after {
+      width: 100%;
+      text-decoration: none;
+      
+  }
+  *{
+    text-decoration: none;
+
+  }
+  
+    .home{
+      display: flex;
+
+        height: 33px;
+        width: 100%;
+        font-weight: 1000;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 26px;
+        overflow-y: hidden;
+        
+        
+  
+    }
+   
+  
+    .right{
+        display: flex;
+        width: 540px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:40%;
+        
+        background-color: transparent;
+  
+        #item{
+          cursor: pointer;
+          align-items: center;
+          justify-content: center;
+          height: 35px;
+          text-decoration: none;
+          color: white;
+  
+        }
+  
+  
+      }
+  
+  }
+
+  @media only screen and (max-width: 1315px) {
+
+    .navbar{
+        display: none;
+    }
+    .main-contact{
+      margin-top: 70px;
+    }
+
+    
+  }

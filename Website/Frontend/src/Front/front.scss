@@ -1,0 +1,156 @@
+/* Import Pretty Checkboxes*/
+@import "https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css";
+/* Import Varela Round from Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+.us {
+  top: 100vh;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  position: "absolute";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  .name {
+    margin-top: 70px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .content1 {
+    margin-top: 0px;
+    width: 680px;
+    height: 600px;
+
+    .container {
+      font-size: 24px;
+      margin-top: 30px;
+      text-align: center;
+      display: flex;
+    }
+
+    .aboutus {
+      font-size: 30px;
+
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 773px) {
+    .content1 {
+      width: 400px;
+
+      .container {
+        font-size: 16px;
+        padding:1rem
+      }
+
+      .aboutus {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.front {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  position: "absolute";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content {
+    margin-top: 80px;
+    width: 680px;
+    height: 500px;
+    background-image: url("../assets/DG_logo_1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    justify-content: space-evenly;
+
+    a {
+      color: white;
+      font-size: 20px;
+    }
+    a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: red;
+      transition: width 0.3s;
+    }
+
+    a:hover::after {
+      width: 100%;
+    }
+
+    .home{
+      display: flex;
+
+        height: 33px;
+        width: 100%;
+        font-weight: 1000;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 26px;
+        overflow-y: hidden;
+        
+        
+  
+    }
+   
+  
+    .right{
+        display: flex;
+        width: 540px;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:40%;
+        
+        background-color: transparent;
+  
+      .item {
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+      }
+
+     
+    }
+  }
+
+  @media only screen and (max-width: 1315px) {
+    .navbar {
+      display: none;
+    }
+  }
+}

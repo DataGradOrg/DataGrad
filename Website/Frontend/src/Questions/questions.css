@@ -1,0 +1,371 @@
+/* Import Pretty Checkboxes*/
+@import "https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css";
+/* Import Varela Round from Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+/*Variables defined*/
+:root {
+  --main-color: coral;
+  --text-color: #444;
+  --formcolor: white;
+  --button-color: hsl(356, 90%, 64%);
+}
+.container-q {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-q {
+  width: 550px;
+  background-color: rgba(148, 143, 171, 0.3);
+  border-radius: 10px;
+  color: white;
+  margin-left: calc(50% - 275px);
+}
+
+.name {
+  text-align: center;
+  margin: 1rem;
+  overflow-y: hidden;
+}
+
+.contact-form {
+  display: block;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  overflow-y: hidden;
+}
+.title {
+  border-bottom: 4px solid;
+  font-size: 3rem;
+  padding: 1rem;
+  margin-bottom: 15px;
+  color: white;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.text {
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.input-field {
+  background: transparent;
+  color: white;
+  padding: 5px;
+  font-size: 1.1rem;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+}
+.op {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.sub {
+  background-color: transparent;
+  border: 1.5px solid red;
+  width: 60%;
+  color: white;
+  padding: 0.5rem;
+  margin: 0rem;
+  border-radius: 15px;
+  transition: 0.5s;
+  margin: 1rem;
+}
+.sub:hover {
+  background-color: red;
+  color: white;
+}
+.req {
+  color: red;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+
+.required {
+  color: white;
+  font-size: 0.9rem;
+  text-align: right;
+  margin: 1rem;
+  margin-right: 20%;
+}
+
+.keyword {
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.opt {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+#i-radio {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+.opt-check {
+  font-size: 1.1rem;
+}
+
+.check-radio {
+  margin: 1.5rem;
+}
+@media only screen and (max-width: 1300px) {
+  .wrapper {
+    justify-content: space-evenly;
+  }
+  .main-q {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-q {
+    width: 400px;
+    margin-left: calc(50% - 200px);
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .input-field,
+  .sub {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .main-q {
+    width: 350px;
+    margin-left: calc(50% - 175px);
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+/*.front {
+  
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-family: 'Varela Round', sans-serif; 
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  position: "absolute";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+
+
+
+
+
+
+
+
+  form {
+
+        
+        display: block;
+        border-radius: 12px;
+        padding: 5vh 10vw;
+        color: white;
+        text-align: center;
+        overflow-y: hidden;
+        
+        
+        
+            .title {
+                padding: 10px 0px;
+                padding-left: 5px;
+                border-bottom: 4px solid;
+                font-size: 3rem;
+                margin-bottom: 15px;
+                color: white;
+            }
+@media only screen and (max-width: 700px) {
+.title{
+  font-size: 2.5rem;
+}
+}
+
+@media only screen and (max-width: 520px) {
+  .title{
+    font-size: 2rem;
+  }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .title{
+      font-size: 1.6rem;
+    }
+    }
+              .outer{
+
+              display: flex;
+              padding-left: calc(50% - 300px);
+
+
+            .array{
+              width:50%;
+              padding: 10px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              
+              
+              .logo{
+                width: 150px;
+                height: 150px;
+                background-image: url('../assets/alpha3new.png');
+                background-position: center;
+                background-size: 100% 100%;
+
+              }
+              
+
+              
+              
+              
+              
+            }
+            .ips{
+
+              width: 100%;
+              text-align: center;
+
+              
+              
+              .signup-field {
+                
+                padding: 10px;
+                padding-left: 5px;
+                text-align: left;
+                color: black;
+
+
+                input{
+                  height: 38px;
+                  width: 300px;
+                  
+                }
+                
+
+                .text{
+                  align-items: center;
+                  color: white;
+                  font-size: 1.5rem;
+                  text-align: center;
+                  
+                }
+                @media only screen and (max-width: 520px) {
+                  .text{
+                    font-size: 1.2rem;
+                  }
+                  }
+                  @media only screen and (max-width: 420px) {
+                    .text{
+                      font-size: 1rem;
+                    }
+                  }
+
+            }
+
+            
+            
+            .input-field {
+                border: 0;
+                width: 300px;
+                border-radius: 5px;
+                height: 2.5rem;
+                background-color: #f0f0f0;
+                color: black;
+                margin-left: calc(50% - 150px);
+
+                .op{
+                    font-size: 1.2rem;
+                    color: black;
+                    border-radius: 20px;
+                    padding-left: 20px;
+                }
+            }
+            @media only screen and (max-width: 420px) {
+              .input-field{
+                width: 260px;
+                margin-left: calc(50% - 130px);
+
+                .op{
+
+                  font-size: 0.8rem;
+                }
+              }
+            }
+
+            
+            label {
+                display: block;
+                font-size: 23px;
+                margin-bottom: 8px;
+                color: white;
+            }
+
+            
+        }
+      }
+      
+
+                input[type="submit"] {
+                font-family: inherit;
+                font-size: 1.3rem;
+                font-weight: 600;
+                margin-top: 1rem;
+                padding: 0.8rem 1.2rem;
+                border: 2px outset var(--button-color);
+                border-radius: 10px;
+                cursor: pointer;
+                color: white;
+                background-color: transparent;
+                transition: all 0.2s ease-out;
+            }
+
+            input[type="submit"]:hover {
+                cursor: pointer;
+                background-color: var(--button-color, black);
+                color: var(--formcolor);
+                transition-duration: 0.4s;
+            }
+            
+            
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+  .wrapper{
+    justify-content: space-evenly;
+  }
+     
+}
+
+*/
+
