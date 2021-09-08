@@ -1,0 +1,62 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.27",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "caniuse-lite": "^1.0.30001255",
+    "emailjs": "^3.5.0",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.0.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-dropdown-select": "^4.7.4",
+    "react-flippy": "^1.1.0",
+    "react-icons": "^4.2.0",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-tsparticles": "^1.34.0",
+    "sass": "^1.38.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

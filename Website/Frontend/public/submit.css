@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+.submit-container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-img{
+    text-align: center;
+}
+.img{
+    width: 20rem;
+    margin-top:5rem;
+}
+
+.sub-text{
+    color: whitesmoke;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-button{
+    text-align: right;
+    padding: 1rem 3rem;
+    background-color: black;
+}
+.btn-sub{
+    color: white;
+    background-color: turquoise;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.btn-sub:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .sub-text{
+font-size: 1.4rem;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .img{
+width: 15rem;}
+
+.sub-text{
+    font-size: 1.2rem;
+    padding: 1rem;
+        }
+    
+        .btn-sub{
+        font-size: 1rem;
+        font-weight: 400;
+        
+        }
+}
