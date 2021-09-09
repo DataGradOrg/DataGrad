@@ -143,7 +143,7 @@ def predict():
         
 
         df = pd.read_csv(
-            "https://raw.githubusercontent.com/khusheekapoor/DataGrad/master/Recommender%20System/combine.csv", encoding='cp1252')
+            "https://raw.githubusercontent.com/DataGradOrg/DataGrad/main/Recommender%20System/data.csv", encoding='cp1252')
 
         if(ctr == True):
             final = recommender_course(skill)

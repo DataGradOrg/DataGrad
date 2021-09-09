@@ -22,45 +22,63 @@ export default function How() {
           </h1>
         </div>
         <div>
-          <ul className="how-list">
+          <ol className="how-list">
+            The main purpose of DataGrad is to integrate the services of various
+            MOOC platforms , so that you don't feel overwhelmed to find the
+            course of your choice!
             <li>
-              The Home Page of the Platform showcases DataGrad's Logo and is
-              connected to the Explore, How to Use, Contact, and Team pages.
+              The Landing page serves as your gateway to explore courses
+              specially curated for you from three of the major MOOC platforms.
+              The Sidebar/Navbar redirects to various sections of the
+              application.
             </li>
             <li>
-              The Explore Page has two options for optimization. High
-              Optimization refers to the skills which have the highest number of
-              courses in our database.
+              As you visit the "Explore" page, you will have two modes of
+              optimisation with you, i.e, Low and High.The default option is set
+              on High, and you can alter it using the radio button provided.
             </li>
             <li>
-              If the user opts for High Optimization, they have to select the
-              skill they want to learn and their level from the select boxes. In
-              case they have done any previous course related to the skill, they
-              may enter that in order to get similar courses.
+              The High optimisation mode provides an exhaustive list of skills
+              to choose from, in the selctbox, which are majorly related to the
+              Computer Science and related domains ( we are constantly expanding
+              our database, and currently the number of courses related to
+              domains such as, Robotics, Electronics, Mechanical,
+              Mechatronics,etc, are low in number). Further you are required to
+              specify your level of expertise. The third field is an optional
+              one, and it is your discretion to specify any keywords related to
+              the skill, so that the recommendations for you are optimized by
+              our custom Recommendation Engine running on the backend.
+              <br />
+              So, for example, you select "Cybersecurity" and "Intermediate"
+              from the options given , and further specify a keyword such as
+              "Network security"(related to cybersecurity), the model would get
+              optimized and would try to fetch courses from all the platforms,
+              to suit your needs.
+              <br />
+              If by any chance, the recommendations are not accurate, try
+              specifying some more accurate keywords or even try changing the
+              levels of difficulty
             </li>
             <li>
-              If the user opts not to go for High Optimization, they have to
-              enter the skill they want to learn and select their level from the
-              select box.
+              Moving on, if you intend to explore some skills apart from the
+              ones given in the default options, the "Low optmization" mode is
+              meant for you. Just select "No" in the radio button. Further, you
+              specify the skill you intend to learn and your level of expertise.
+              <br />
+              DISCLAIMER: The Low optimisation mode is specially created for
+              users to explore skills not given in the default options. Since
+              our database is limited for now, the recommendations for some
+              skills might not be highly optimized.
             </li>
             <li>
-              In either case, when the user selects/enters the options in the
-              relevant fields, the courses are suggested as follows:
+              At the end, when you click on "Submit" , the Top 5 courses from
+              the platforms appear for you to select from. Based on the Title,
+              Course Description and its Rating, you can select any, and further
+              would be redirected to the specific platform. Clicking on
+              "Checkout More" option , shows course titles offered by the
+              particular institute.
             </li>
-            <li>
-              Behind every card, when the user clicks on the 'Check Out More'
-              option, more courses offfered by the University are displayed as
-              follows. The user can toggle back using the 'Back to Course'
-              option.
-            </li>
-            <li>
-              The Contact Page is for the users to write us their queries. We
-              are still expanding our database, so if the courses recommended do
-              not match one's expectations, we would really appreciate if they
-              send us your query through the contact form and become a part of
-              our family.
-            </li>
-          </ul>
+          </ol>
         </div>
       </div>
       <div className="name">

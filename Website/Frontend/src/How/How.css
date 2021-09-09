@@ -22,6 +22,7 @@
     color: white;
     padding: 2rem;
     font-size: 1.3rem;
+    list-style-position: inside;
 } 
 .how-list li{
     padding: 1rem 0rem;

@@ -78,9 +78,9 @@ const QuestionsForm = () => {
     }
 
     showLoader();
-
+//https://dettolback.herokuapp.com/predict
     axios
-      .post("https://dettolback.herokuapp.com/predict", data, {
+      .post("https://finalbackendapi.herokuapp.com/predict", data, {
         headers: { "Content-Type": "application/json" },
       })
       .then((res) => {
@@ -205,7 +205,7 @@ const QuestionsForm = () => {
                     <div className="">
                       <input
                         display={opt}
-                        placeholder="Enter Any Previous Courses If Done "
+                        placeholder="Enter any relavent keywords"
                         className="input-field keyword"
                         onChange={(e) => setKeyword(e.target.value)}
                       ></input>
